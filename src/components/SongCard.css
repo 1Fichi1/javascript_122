@@ -1,0 +1,38 @@
+.song-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.song-card img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.song-card h3 {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #343a40;
+}
+
+.song-card p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #6c757d;
+}
+
+.song-card audio {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.song-card:hover {
+    transform: translateY(-5px);
+}
